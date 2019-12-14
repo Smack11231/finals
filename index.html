@@ -4,27 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lunch Calculator</title>
+    <title>Random Lunch Calculator</title>
     <link rel="stylesheet" href="finals.css">
-    <h1 style="font-size:100px; color:green;">Lunch Calculator</h1>
+    <h1 style="font-size:80px; color:green;">Random Lunch Calculator</h1>
 </head>
 <body>
-    <script src="finals.js"></script>
     <form name="lunch">
         <label for="money">How much money do you have available?</label>
-        <input type="text" name="money" class="button1">
+        <input id = "money" name="money" class="button1">
         <br><br>
-        <label for="meals">How many meals should this last you?</label>
-        <input type="text" name="meals" class="button1">
+        <p>Would you like a tastier option, or a healthier option?</p>
+        <input id="healthy" name="preference" class="button1" type="radio"> <span>Healthy</span>
+        <input id="tasty" name="preference" class="button1" type="radio"> <span>Tasty</span>
         <br><br>
-        <label for="preference">Would you like a tastier option, or a healthier option?</label>
-        <select name="preference" class="button1">
-            <option value="select">(Select)</option>
-            <option value="healthy">Healthy</option>
-            <option value="tasty">Tasty</option>
-        </select>
-        <br><br>
-        <button class="button button1">Submit</button>
+        <button onclick="sub()" id="submit" class="button button1">Submit</button>
+        <p id="result"></p>
     </form>
+    <script src="finals.js"></script>
 </body>
 </html>
