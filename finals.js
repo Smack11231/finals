@@ -14,7 +14,7 @@ function sub() {
     var side2 = sides2[Math.floor(Math.random()*sides2.length)];
     let choices = [taste2b +" and "+ side2, "a bag of bosco sticks for $2.75 " + side2, taste2b+" and "+side2, "a bag of breadsticks for $3.50 and a cookie for $0.75!", "a container of Mac & Cheese for $3.00!"]
     var choice = choices[Math.floor(Math.random()*choices.length)];
-    let choices2 = [taste2b +" and "+ side2, "a bag of bosco sticks for $2.75 " + side2, taste2b+" and "+side2, "a bag of breadsticks for $3.50 and a cookie for $0.75!", "a container of Mac & Cheese for $3.00"+side2, "a subway sandwhich for $4.50!", taste2b+" and "+side2]
+    let choices2 = [taste2b +" and "+ side2, "a bag of bosco sticks for $2.75 " + side2, taste2b+" and "+side2, "a bag of breadsticks for $3.50 and a cookie for $0.75!", "a container of Mac & Cheese for $3.00"+side2, "a subway sandwich for $4.50!", taste2b+" and "+side2]
     var choice2 = choices2[Math.floor(Math.random()*choices2.length)];
     if(healthy.checked==true)
         if (money>3.99)
