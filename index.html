@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Random Lunch Calculator</title>
     <link rel="stylesheet" href="finals.css">
-    <h1 style="font-size:80px; color:green;">Random Lunch Calculator</h1>
+    <h1 style="font-size:80px; color:green; font-family: 'Ubuntu', sans-serif;">Random Lunch Calculator</h1>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
+    <hr>
     <form name="lunch">
         <label for="money">How much money do you have available to spend?</label>
         <input id = "money" name="money" class="button1" placeholder="$     ">
@@ -18,7 +20,7 @@
         <input id="tasty" name="preference" class="button1" type="radio"> <span>Tasty</span>
         <br><br>
         <button onclick="sub()" id="submit" class="button button1">Submit</button>
-        <p id="result"></p>
+        <div id="result"></div>
     </form>
     <script src="finals.js"></script>
 </body>

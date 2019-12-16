@@ -11,10 +11,12 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
     margin: 4px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    font-family: 'Ubuntu', sans-serif;
 }
   
 .button1:hover {
@@ -30,8 +32,19 @@ input, select {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 label, p, span {
     color: green;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+    border: 5px green solid;
+    color: green;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    padding: 9px 5px;
 }
