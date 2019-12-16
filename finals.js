@@ -29,7 +29,7 @@ function sub() {
     else if(tasty.checked==true)
         if (money>=0.75 && money<1.25)
             elem.innerHTML= "Sorry, the only thing you can afford here is a $0.75 cookie.";
-        else if (money<1.75 && money >= 1.25)
+        else if (money<2.5 && money >= 1.25)
             elem.innerHTML= "Try a cookie for $0.75, bag of chips for $1.25, or a cup of fries for $1.50!";
         else if(money>=2.5 && money <3.75)
             elem.innerHTML="Try"+taste2+"<br> Or if you're feeling the need for sugar, try a pack of three cookies for $2.00!";
